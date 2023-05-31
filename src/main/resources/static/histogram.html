@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="histogram.css" />
+    <script src="calculate.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bounds">
+        <b>Lower Bounds</b>
+        <table class="bnd">
+          <tr>
+            <td>
+              <p>Max</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="100.00" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <p>A+</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="95.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>A</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="90.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>A-</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="85.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>B+</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="80.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>B</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="75.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>B-</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="70.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>C+</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="65.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>C</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="60.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>C-</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="55.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>D</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="50.00" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>F</p>
+            </td>
+            <td>
+              <label for="quantity"></label>
+              <input type="text" id="name" name="name" value="0.00" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="w">
+        <div class="histogram">
+          <b>Histogram</b>
+          <table class="hist">
+            <tr>
+              <td>A+</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>A</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>A-</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>B+</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>B-</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>C+</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>C-</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>D</td>
+              <td class="num">0</td>
+            </tr>
+            <tr>
+              <td>F</td>
+              <td class="num">0</td>
+            </tr>
+          </table>
+        </div>
+        <div class="grade">
+          <div class="ngr">New Grade: <input id="ingr" type="text" /></div>
+          <div><button id="submit" type="button">Submit</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
